@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cs50xni.prueba.MainActivity"
+    android:weightSum="1"
+    >
+
+
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara8"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:onClick="OnclickButtonListener7"
+            android:src="@drawable/led_a" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lampara8"
+            android:layout_centerHorizontal="true"
+            android:text="128" />
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/lampara7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/led_a"
+                    android:onClick="OnclickButtonListener6"
+                    />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lampara7"
+                    android:layout_centerHorizontal="true"
+                    android:text="64" /></RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/lampara6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/led_a"
+                    android:onClick="OnclickButtonListener5"
+                    />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lampara6"
+                    android:layout_centerHorizontal="true"
+                    android:text="32" /></RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/lampara5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/led_a"
+                    android:onClick="OnclickButtonListener4"
+                    />
+
+                <TextView
+
+                    android:id="@+id/txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lampara5"
+                    android:layout_centerHorizontal="true"
+                    android:text="16" /></RelativeLayout>
+
+
+      <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/lampara4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/led_a"
+                    android:onClick="OnclickButtonListener3"/>
+
+          <TextView
+              android:id="@+id/txt16"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/lampara4"
+              android:layout_centerHorizontal="true"
+              android:text="8" />
+            </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/lampara3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:onClick="OnclickButtonListener2"
+            android:src="@drawable/led_a" />
+
+        <TextView
+            android:id="@+id/txt32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lampara3"
+            android:layout_centerHorizontal="true"
+            android:text="4" />
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.125"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/lampara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/led_a"
+                    android:onClick="OnclickButtonListener1"
+                    />
+
+                <TextView
+                    android:id="@+id/txt64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lampara2"
+                    android:layout_centerHorizontal="true"
+                    android:text="2" />
+
+            </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener"/>
+
+        <TextView
+            android:id="@+id/txt128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lampara1"
+            android:layout_centerHorizontal="true"
+            android:text="1" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

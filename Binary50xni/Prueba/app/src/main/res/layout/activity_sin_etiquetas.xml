@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sin_etiquetas"
+    android:weightSum="1"
+    >
+
+
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara8"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:onClick="OnclickButtonListener7"
+            android:src="@drawable/led_a" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara7"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener6"
+            />
+
+       </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara6"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener5"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener4"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnumero"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/lampara4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener3"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/lampara3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener1"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.125"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lampara1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/led_a"
+            android:onClick="OnclickButtonListener"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
