@@ -4,7 +4,7 @@ int ledpin;
 
 void admin_valor(int pin , char(t))
 {
-  if(pin >= 5 && pin < 13)
+  if(pin > 4 && pin < 13)
   {
     ledpin==pin;
     Serial.print(int(ledpin));
@@ -14,40 +14,30 @@ void admin_valor(int pin , char(t))
   if(t=='h' || t=='H')
   {
     digitalWrite(pin,HIGH);
-    Serial.println(String(t));
+    //Serial.println(String(t));
   }
   if(t=='l' || t=='L')
   {
     digitalWrite(pin,LOW);
-    Serial.println(String(t));
+    //Serial.println(String(t));
   }
   
 }
 
 void captura()
 {
-  if (BT1.available())
+  if(BT1.available())
   {
-           Serial.write(BT1.read());
-  }    
-  if (Serial.available())
-   {  
-      int pin = Serial.read();
-      char estado= Serial.read();
-      admin_valor(pin, estado);
-   }
-  
-/*  while(BT1.available()==0)
-  {
-    delay(500);
+    Serial.write(BT1.read());
+    //delay(500);
   }
-  while(BT1.available()>0)
+  if(Serial.available())
   {
-    int pin = Serial.read(BT1.read());
-    char estado= Serial.read(BT1.read());
+    int pin = Serial.read();
+    char estado= Serial.read();
     admin_valor(pin, estado);
   }
-*/ 
+  
 }
 
 
@@ -66,10 +56,10 @@ void setup()
   pinMode(11,OUTPUT);
   pinMode(12,OUTPUT);
   pinMode(13,OUTPUT);
-  Serial.begin(4800);
+  Serial.begin(9600);
+  //Serial.println("Esto es CS50x.ni");
+  //delay(1000);
   BT1.begin(9600);
-  Serial.println("Esto es CS50x.ni");
-  delay(1000); 
 }
 void loop()
 {
