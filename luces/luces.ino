@@ -54,11 +54,11 @@ void admin_valor(int pin , char(t))
 
 void captura()
 {
-  if(Serial.available()==null)
+  if(Serial.available()==0)
   {
     delay(100);
   }
-  if(Serial.available()!=null)
+  if(Serial.available()>0)
   {
     int pin = Serial.read();
     char estado= Serial.read();
